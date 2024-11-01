@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header/Nav Bar */
+
+.bg-blue{
+    background: #000324;
+}
+
+.nav-boarder:hover{
+    border: 2px solid white;
+    border-radius: 0%;
+    opacity: 1;
+
+}
+
+
+/* Luxury Image */
+
+.pool-image{
+    background-image: url(../assets/header.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 54%;
+    object-fit: cover;
+   
+    
+   
+}
+
+.header{
+    color: #E5FEFF;
+    background-color: #000324cc;
+    height: 232px;
+    width: 945px;
+    text-align: center;
+}
+
+.luxury-text{
+    margin-top: 60px;
+    font: normal normal normal 45px/57px Dosis;
+    
+}
+.explore-text{
+    margin-top: 20px;
+    font: normal normal normal 16px/20px Source Sans Pro;
+}
+
+/* Awards */
+
+.award-image{
+    height: 419px;
+    width: 419px;
+
+    display: flex;
+    justify-content: end;
+    object-fit: cover;
+}
+.image-shift{
+    display: flex;
+    justify-content: end;
+}
+.award-icon{
+    width: 200px;
+    height: 193px;
+    margin-top: 20px;
+    margin-right: 75px;
+}
+
+.award-text{
+    font: normal normal normal 16px/20px Source Sans Pro;
+}
+
+.hamster-text{
+    font: normal normal normal 35px/44px Dosis;
+}
+
+.award-centering{
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon-start{
+    display: flex;
+    justify-content: start;
+}
+
+/* Rooms */
+
+.room-text{
+    color: white;
+    text-align: center; margin-top: 50px;
+    font: normal normal normal 35px/44px Dosis;
+}
+
+.room-background{
+    background-image: url(../assets/bg2.jpg);
+    width: 1920px;
+    height: 45.875rem;
+    
+    
+   
+    
+}
+
+.image-cards{
+    height: 522px;
+    width: 369px;
+    border-radius: 0;
+    border: 0;
+}
+
+.card-margin{
+    margin-top: 40px;
+}
+
+
+.button-margin-two{
+    margin-top: 40px;
+}
+
+.room-images{
+    height: 190px;
+    width: 369px;
+    align-items: center;
+    border-radius: 0;
+    border: 0;
+}
+
+.header-size{
+    font: normal normal normal 25px/32px Dosis;
+    color: #1A1B26;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.info-text{
+    font: normal normal normal 16px/20px Source Sans Pro;
+    
+}
+
+.info-bold{
+    font: normal normal bold 16px/20px Source Sans Pro;
+}
+
+.room-card-margin{
+    margin-top: 74px
+}
+
+
+
+
+
+/*Packages */
+
+.package-margin{
+    margin-top: 125px;
+}
+
+.package-image{
+    width: 561px;
+    height: 234px;
+}
+
+.package-flex{
+    display: flex;
+    justify-content: column;
+    align-items: center;
+}
+
+.borderless{
+    border: none;
+
+}
+
+.package-center{
+    margin-left: 15%;
+}
+
+.package-heading{
+    padding-bottom: 10px;
+}
+.package-font{
+    margin-top: 20px;
+    font: normal normal normal 16px/20px Source Sans Pro;
+}
+
+/* Amenities */
+
+
+.white-text{
+    color: white;
+}
+
+.amen-background{
+    background-image: url(/assets/bg.jpg);
+    height: 548px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: 100%;
+    
+}
+
+.icon-image{
+    height: 104px;
+}
+
+.amen-padding{
+    padding-top: 20px;
+}
+.amen-absolute-text{
+    
+    color: white;
+    margin-top: 30px;
+    font: normal normal normal 35px/44px Dosis;
+    
+}
+
+.amen-absolute-text-two{
+   
+    color: white;
+    margin-top: 5px;
+    font: normal normal normal 16px/20px Source Sans Pro;
+}
+
+
+/* Reserve */
+
+.center{
+    margin-left: 6%;
+}
+
+.button-margin{
+    margin-top: 36.5px;
+}
+
+.reserve-image{
+    width: 1137px;
+    height: 414px;
+    object-fit: cover;
+    padding: 0;
+
+}
+
+.input-boxes{
+    width: 19%;
+    margin-top: 25px;
+}
+
+.reserve-bg-blue{
+    background: #000324;
+    width: 1137px;
+    height: 207px;
+}
+
+.reserve-text{
+    color: white;
+    font: normal normal normal 16px/20px Source Sans Pro;
+}
+
+.reserve-header{
+    color: white;
+    font: normal normal normal 35px/44px Dosis;
+    margin-top: 15px;
+}
+
+.no-border-radius{
+    border-radius: 0;
+}
+
+
+
+
+.bg-footer{
+    height: 300px;
+    width: 100%;
+    background-color: #000324;
+}
+
+.footer-image{
+    height: 100px;
+    width: 143px;
+    margin-top: 40px;
+}
+
+.footer-text{
+    color: white;
+    font: normal normal normal 16px/20px Source Sans Pro;
+}
+
+@media screen and (max-width: 767px){
+
+    .bg-blue{
+        background: #000324;
+        width: 767px;
+
+    }
+
+
+    .pool-image{
+    background-image: url(../assets/header.jpg);
+    width: 767px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 54%;
+    object-fit: cover
+    }   
+
+    .header{
+        color: #E5FEFF;
+        background-color: #000324cc;
+        height: 232px;
+        width: 550px;
+        text-align: center;
+    }
+
+    /* Awards */
+
+    .image-shift{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .award-image{
+        height: 300px;
+        width: 350px;
+    
+        display: flex;
+        justify-content: end;
+        object-fit: cover;
+    }
+
+    .award-icon{
+        width: 105px;
+        height: 100px;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .award-centering{
+       text-align: center;
+    }
+
+    .icon-start{
+        display: flex;
+        justify-content: center;
+    }
+
+    .award-text{ 
+        margin-left: 25px;
+        margin-right: 25px
+    }
+    /* Roooms */
+
+   .room-text{
+    margin-top: 90px;
+   }
+    .room-background{
+        height: 62.5rem;
+        width: 767px;;
+    }
+    
+    .image-cards{
+        margin-top: 20px;
+        height: 600px;
+        width: 200px;
+       
+    }
+
+    .room-images{
+            height: 100px;
+            width: 100%;
+           
+    }
+
+    .header-size{
+       margin-top: 10px;
+    }
+    .info-text{
+      margin-top: 10px;
+      padding-bottom: 7px;
+        
+    }
+    
+    .info-bold{
+       margin-top: 10px;
+    }
+
+    .room-card-margin{
+        margin-top: 135px;
+    }
+
+
+.button-margin-two{
+    margin-top: 0px;
+}
+    
+    /* Packages */
+
+
+    .package-image{
+        width: 400px;
+        height: 234px;
+    
+    }
+
+    .package-center{
+        margin-left: 0;
+    }
+
+    .body-centering{
+        text-align: center;
+    }
+
+    .more-spacing{
+        margin-top: 25px;
+    }
+
+/* Amenities */
+
+.icon-image{
+    height: 75px;
+    width: 100px;
+
+}
+
+/* Reservation */
+
+.reserve-bg-blue{
+    background: #000324;
+    width: 100%;
+    height: 500px;
+}
+
+
+.reserve-image{
+    width: 516px;
+    height: 414px;
+    object-fit: cover;
+    padding: 0;
+}
+
+.center{
+    margin-left: 0;
+}
+
+.input-boxes{
+    width: 90%;
+    margin-top: 10px;
+}
+
+.button-margin{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+}
